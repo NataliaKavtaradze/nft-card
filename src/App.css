@@ -1,0 +1,184 @@
+body {
+  font-family: sans-serif;
+}
+
+.main-div {
+  height: 100vh;
+  background-color: #0D192C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 24px;
+  background-color: #15263F;
+  border-radius: 15px;
+}
+
+.equlibr-view {
+  position: relative;
+  cursor: grab;
+}
+
+.icon-view {
+  display: none;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 44px;
+  height: 44px;
+
+}
+
+.equlibr-view:hover .icon-view {
+  display: block;
+
+}
+
+.equlibr-view:hover {
+  background-color: #00FFF8;
+  opacity: 50%;
+}
+
+.nft-img {
+  width: 302px;
+  border-radius: 8px;
+}
+
+.nft-content {
+  width: 302px;
+  text-align: start;
+}
+
+.nft-title {
+  font-weight: 600;
+  Size: 22px;
+  Line-height: 27, 72px;
+  color: #00FFF8;
+  cursor: grab;
+}
+
+.nft-text {
+  color: #8BACD9;
+  size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ethereum {
+  align-items: start;
+  margin-left: 0px;
+  width: 11px;
+  height: 12.43px;
+}
+
+.ethereum-content {
+  display: inline;
+  color: #00FFF8;
+  font-weight: 600;
+  Size: 16px;
+  Line-height: 20.16px;
+}
+
+.clock {
+  Width: 13.33px;
+  Height: 13.33px;
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 33px;
+}
+
+.clock-content {
+  margin-right: 0px;
+  display: inline;
+  Size: 16px;
+  color: #8BACD9;
+
+}
+
+.line {
+  background-color: #2E405A;
+  width: 302px;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.one {
+  color: #8BACD9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+}
+
+.two {
+  padding-left: 10px;
+  color: #00FFF8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  display: inline;
+  cursor: grab;
+}
+
+.the-end {
+  display: flex;
+  align-items: center;
+}
+
+.end-content {
+  display: flex;
+  margin-left: 16px;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
